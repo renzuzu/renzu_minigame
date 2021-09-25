@@ -4,8 +4,8 @@ Unique Minigame can be used in your scripts.
 `   
     local o = {
         --scenario = 'WORLD_HUMAN_AA_COFFEE',
-        dict = "random@shop_gunstore",
-        name = "_idle_b",
+        dict = "veh@break_in@0h@p_m_one@",
+        name = "low_force_entry_ds",
         flag = 1,
     }
     local result = exports.renzu_minigame:Start(o)
