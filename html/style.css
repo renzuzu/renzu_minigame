@@ -1,0 +1,38 @@
+.ring {
+  position: absolute;
+  left: 50%;
+  top: 100px;
+  transform-origin: 18px 200px;
+  -webkit-transform-origin: 18px 200px;
+}
+.seg {
+  position: absolute;
+  width: 36px;
+  height: 20px;
+  background-color:#424242;
+  box-shadow: 0 0 10px 10px rgb(218, 218, 218);
+}
+.hide {
+  display: none;
+}
+.long {
+  height: 60px;
+}
+#circle {
+  position: absolute;
+  left: 33%;
+  top: 50px;
+  width: 520px;
+  height: 520px;
+}
+#win {
+  position: absolute;
+  left: 50%;
+  top: 280px;
+  width: 20px;
+  height: 20px;
+  border: 10px solid #FFAA00;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 10px 10px rgba(255, 0, 0, 1);
+  border-radius: 50%;
+}
